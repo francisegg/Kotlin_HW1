@@ -1,16 +1,3 @@
 <resources>
-    <string name="app_name">HW_1106</string>
-    <string name="enter_player_name">請輸入玩家姓名</string>
-    <string name="player_name">名字\n%1$s</string>
-    <string name="my_mora">我方出拳\n%1$s</string>
-    <string name="target_mora">電腦出拳\n%1$s</string>
-    <string name="winner_draw">勝利者\n平手</string>
-    <string name="draw_message">平局，請再試一次！</string>
-    <string name="winner_player">勝利者\n%1$s</string>
-    <string name="win_message">恭喜你獲勝了！！！</string>
-    <string name="winner_computer">勝利者\n電腦</string>
-    <string name="lose_message">可惜，電腦獲勝了！</string>
-    <string name="scissor">剪刀</string>
-    <string name="stone">石頭</string>
-    <string name="paper">布</string>
+    <string name="app_name">HW_1106_Lab2</string>
 </resources>

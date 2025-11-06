@@ -4,11 +4,13 @@ plugins {
 }
 
 android {
-    namespace = "com.example.hw_1106"
-    compileSdk = 36
+    namespace = "com.example.hw_1106_lab2"
+    compileSdk {
+        version = release(36)
+    }
 
     defaultConfig {
-        applicationId = "com.example.hw_1106"
+        applicationId = "com.example.hw_1106_lab2"
         minSdk = 24
         targetSdk = 36
         versionCode = 1
@@ -33,9 +35,6 @@ android {
     kotlinOptions {
         jvmTarget = "11"
     }
-    buildFeatures {
-        viewBinding = true
-    }
 }
 
 dependencies {
@@ -43,10 +42,7 @@ dependencies {
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
     implementation(libs.androidx.activity)
-    implementation("androidx.activity:activity-ktx:1.9.0")
     implementation(libs.androidx.constraintlayout)
-    implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.0")
-    implementation("androidx.lifecycle:lifecycle-livedata-ktx:2.8.0")
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
